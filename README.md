@@ -96,24 +96,4 @@ http://localhost:8501
 | DeepSeek | `https://api.deepseek.com` | `deepseek-chat` |
 | 通义千问/Qwen | `https://dashscope.aliyuncs.com/compatible-mode/v1` | `qwen-plus` |
 
-## GitHub 上传建议
 
-上传到 GitHub 前，建议确认：
-
-- `.env` 不要上传
-- `.env.example` 要上传
-- README 保留运行步骤
-- 可以在 README 里补一张项目截图
-- 部署成功后，把在线体验链接放到 README 顶部
-
-## 简历写法参考
-
-> 开发 AI 简历优化助手，基于 Streamlit 构建交互式 Web 页面，接入 OpenAI-compatible 大模型 API，实现原始经历输入、提示词构造、简历 bullet point 生成、STAR 拆解和 Markdown 下载等功能，提升大学生简历项目表达效率。
-
-## 后续优化方向
-
-- 增加岗位模板，例如前端、后端、数据分析、AI 产品经理
-- 增加历史记录保存功能
-- 增加 PDF 简历解析功能
-- 增加中英文简历切换
-- 部署到 Streamlit Community Cloud 或 Hugging Face Spaces
